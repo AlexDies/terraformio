@@ -15,9 +15,9 @@ output "region_name" {
 }
 
 output "private_ip" {
-  value = aws_instance.test[0].private_ip
+  value = aws_instance.test.private_ip
 }
 
 output "subnet_id" {
-  value = aws_instance.test[0].subnet_id
+  value = aws_instance.test.subnet_id
 }
