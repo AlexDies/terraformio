@@ -22,7 +22,7 @@ terraform {
  backend "s3" {
    bucket         = "terraform-test-netology"
    encrypt        = true
-   key            = "terraform.tfstate"
+   key            = "test/terraform.tfstate"
    region         = "eu-west-2"
    dynamodb_table = "terraform-locks"
  }
